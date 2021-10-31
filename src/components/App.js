@@ -10,6 +10,7 @@ class App extends Component {
     	return(
     		<div id="main">
 				{ /* Do not remove this main div!! */ }
+			<ButtonAction />
     		</div>
     	);
     }
