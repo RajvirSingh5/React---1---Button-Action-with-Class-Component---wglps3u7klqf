@@ -20,7 +20,7 @@ class ButtonDisplay extends React.Component {
     return(
       <div>
         <button id="click" onClick={this.handleClick}>Click Here</button>
-        <p>{this.state.textToDisplay}</p>
+        <p id="para">{this.state.textToDisplay}</p>
       </div>
     );
   }
