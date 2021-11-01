@@ -1,6 +1,6 @@
 import React, {Component, useState} from "react";
 
-import ButtonAction from "./ButtonAction";
+import ButtonDisplay from './ButtonDisplay.js'
 
 import '../styles/App.css';
 
@@ -13,7 +13,7 @@ class App extends Component {
     	return(
     		<div id="main">
 				{ /* Do not remove this main div!! */ }
-			<ButtonAction />
+			<ButtonDisplay />
     		</div>
     	);
     }
